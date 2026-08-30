@@ -9,6 +9,8 @@
       1. <details>
          <summary>Make symlinks for config files</summary>
 
+         > [!CAUTION]
+         > This will delete your current config files in your home directory and replace them with the ones in the [files](files) directory
          - `.face`
          - `.gitconfig`
          - `.bash_aliases`
@@ -42,10 +44,13 @@
       4. <details>
          <summary>Install apps</summary>
 
-         - Google Chrome
-         - VS Code
-         - Vesktop
-         - Obsidian
+         - [Google Chrome](https://www.google.com/chrome/)
+         - [VS Code](https://code.visualstudio.com/)
+         - [Vesktop](https://vesktop.dev/)
+         - [Obsidian](https://obsidian.md/)
+         - [Pinta](https://www.pinta-project.com/)
+         - [VLC](https://www.videolan.org/)
+         - [Emote](https://github.com/tom-james-watson/Emote)
          </details>
 
       5. <details>

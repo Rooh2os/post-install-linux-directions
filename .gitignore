@@ -1,4 +1,4 @@
 .vscode/
-files/
+files/*
 .htmlhintrc
 .markdownlint.json

@@ -16,7 +16,7 @@ mkdir -p ~/Workspace ~/Documents/Programs
 ln -sr ~/Documents/Programs ~/Programs
 
 # Install Diodon
-sudo apt install diodon
+sudo apt install diodon vlc
 
 # Install google-chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -29,7 +29,7 @@ apt install code_1.134.0-1787078834_amd64.deb
 rm -f code_1.134.0-1787078834_amd64.deb
 
 # Install Vesktop
-flatpak install dev.vencord.Vesktop md.obsidian.Obsidian io.github.nozwock.Packet -y
+flatpak install dev.vencord.Vesktop md.obsidian.Obsidian io.github.nozwock.Packet com.github.PintaProject.Pinta com.tomjwatson.Emote -y
 
 # Update
 flatpak update -y && apt update && apt upgrade -y && apt autoremove --purge -y && apt autoclean -y
