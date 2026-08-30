@@ -51,6 +51,7 @@
          - [Pinta](https://www.pinta-project.com/)
          - [VLC](https://www.videolan.org/)
          - [Emote](https://github.com/tom-james-watson/Emote)
+         - [Steam](https://store.steampowered.com/about/)
          </details>
 
       5. <details>

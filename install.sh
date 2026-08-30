@@ -25,8 +25,13 @@ rm -f google-chrome-stable_current_amd64.deb
 
 # Install code
 wget https://vscode.download.prss.microsoft.com/dbazure/download/stable/110a328ea54b42367b803ec53ee0bf52ef26b419/code_1.134.0-1787078834_amd64.deb
-apt install code_1.134.0-1787078834_amd64.deb
+apt install ./code_1.134.0-1787078834_amd64.deb
 rm -f code_1.134.0-1787078834_amd64.deb
+
+# Install steam
+wget https://cdn.fastly.steamstatic.com/client/installer/steam.deb
+apt install ./steam_latest.deb
+rm -f steam_latest.deb
 
 # Install Vesktop
 flatpak install dev.vencord.Vesktop md.obsidian.Obsidian io.github.nozwock.Packet com.github.PintaProject.Pinta com.tomjwatson.Emote -y
