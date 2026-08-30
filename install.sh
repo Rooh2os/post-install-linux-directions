@@ -30,8 +30,8 @@ rm -f code_1.134.0-1787078834_amd64.deb
 
 # Install steam
 wget https://cdn.fastly.steamstatic.com/client/installer/steam.deb
-apt install ./steam_latest.deb
-rm -f steam_latest.deb
+apt install ./steam.deb
+rm -f steam.deb
 
 # Install Vesktop
 flatpak install dev.vencord.Vesktop md.obsidian.Obsidian io.github.nozwock.Packet com.github.PintaProject.Pinta com.tomjwatson.Emote -y
