@@ -16,7 +16,7 @@ mkdir -p ~/Workspace ~/Documents/Programs
 ln -sr ~/Documents/Programs ~/Programs
 
 # Install Diodon
-sudo apt install diodon vlc
+sudo apt install diodon vlc steam
 
 # Install google-chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -27,11 +27,6 @@ rm -f google-chrome-stable_current_amd64.deb
 wget https://vscode.download.prss.microsoft.com/dbazure/download/stable/110a328ea54b42367b803ec53ee0bf52ef26b419/code_1.134.0-1787078834_amd64.deb
 apt install ./code_1.134.0-1787078834_amd64.deb
 rm -f code_1.134.0-1787078834_amd64.deb
-
-# Install steam
-wget https://cdn.fastly.steamstatic.com/client/installer/steam.deb
-apt install ./steam.deb
-rm -f steam.deb
 
 # Install Vesktop
 flatpak install dev.vencord.Vesktop md.obsidian.Obsidian io.github.nozwock.Packet com.github.PintaProject.Pinta com.tomjwatson.Emote -y
