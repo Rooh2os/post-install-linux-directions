@@ -80,6 +80,14 @@
      3. Change startup delay to `5`
      </details>
 
+   - <details>
+     <summary>Update Manager auto start</summary>
+
+     1. Open Startup Applications
+     2. Click on Update Manager
+     3. Switch to `off`
+     </details>
+
    </details>
 
 3. <details>
