@@ -9,7 +9,7 @@ sudo apt install jp2a -y
 #source ~/.bashrc
 
 # Remove bloatware
-apt purge firefox* celluloid gnome-calendar rhythmbox drawing thingy hypnotix libreoffice* mintchat pix thunderbird* transmission* -y
+apt purge firefox* celluloid gnome-calendar rhythmbox drawing thingy hypnotix libreoffice* mintchat pix thunderbird* transmission* onboard* -y
 
 # Make Workspace and Programs
 mkdir -p ~/Workspace ~/Documents/Programs

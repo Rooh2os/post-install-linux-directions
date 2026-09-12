@@ -32,6 +32,7 @@
          - Pix
          - Thunderbird
          - Transmission
+         - Onboard
          </details>
 
       3. <details>
