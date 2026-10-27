@@ -102,7 +102,11 @@
         sudo visudo -f /etc/sudoers.d/$USER
         ```
 
-     2. Add `<your-username> ALL=(ALL) NOPASSWD: ALL`
+     2. Add
+       
+        ```bash
+        <your-username> ALL=(ALL) NOPASSWD: ALL
+        ```
 
      </details>
 
