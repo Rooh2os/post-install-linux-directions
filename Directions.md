@@ -99,7 +99,7 @@
      1. Run:
 
         ```bash
-        sudo visudo -f /etc/sudoers.d/reuben
+        sudo visudo -f /etc/sudoers.d/$USER
         ```
 
      2. Add `<your-username> ALL=(ALL) NOPASSWD: ALL`
