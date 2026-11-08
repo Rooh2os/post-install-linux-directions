@@ -4,7 +4,7 @@ ln -sri files/.gitconfig ~/.gitconfig
 ln -sri files/.bash_aliases ~/.bash_aliases
 ln -sri files/.LM_Logo.png ~/.LM_Logo.png
 
-sudo apt install jp2a -y
+sudo apt install jp2a pv -y
 
 #source ~/.bashrc
 
@@ -29,7 +29,7 @@ apt install ./code_1.134.0-1787078834_amd64.deb
 rm -f code_1.134.0-1787078834_amd64.deb
 
 # Install Vesktop
-flatpak install dev.vencord.Vesktop md.obsidian.Obsidian io.github.nozwock.Packet com.github.PintaProject.Pinta com.tomjwatson.Emote it.mijorus.gearlever -y
+flatpak install dev.vencord.Vesktop md.obsidian.Obsidian io.github.nozwock.Packet com.github.PintaProject.Pinta com.tomjwatson.Emote -y
 
 # Update
 flatpak update -y && apt update && apt upgrade -y && apt autoremove --purge -y && apt autoclean -y

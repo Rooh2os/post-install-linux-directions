@@ -53,7 +53,8 @@
          - [VLC](https://www.videolan.org/)
          - [Emote](https://github.com/tom-james-watson/Emote)
          - [Steam](https://store.steampowered.com/about/)
-         - [Gear Leaver](https://gearlever.mijorus.it/)
+         - [JP2A](https://github.com/cslarsen/jp2a)
+         - [PV](https://www.ivarch.com/programs/pv.shtml)
          </details>
 
       5. <details>
